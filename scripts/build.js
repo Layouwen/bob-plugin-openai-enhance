@@ -1,3 +1,4 @@
+const pkg = require('../package.json')
 const compressing = require('compressing')
 const fs = require('fs')
 
@@ -6,5 +7,5 @@ const fs = require('fs')
     fs.mkdirSync('dist')
   }
 
-  await compressing.zip.compressDir('src', 'dist/bob-plugin-openai-enhance.bobplugin', { ignoreBase: true })
+  await compressing.zip.compressDir('src', `dist/openai-enhance-${pkg.version}.bobplugin`, { ignoreBase: true })
 })()
