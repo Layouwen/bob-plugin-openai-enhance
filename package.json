@@ -1,10 +1,14 @@
 {
   "name": "bob-plugin-openai-enhance",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Enhance your everyday use OpenAI's powerful capabilities.",
   "scripts": {
     "dev": "nodemon --watch src --exec 'npm run build'",
-    "build": "node scripts/build.js"
+    "build": "node scripts/build.js",
+    "release": "standard-version",
+    "prerelease": "standard-version --prerelease",
+    "alpha": "standard-version --prerelease alpha",
+    "minor": "standard-version --release-as minor"
   },
   "keywords": [],
   "author": {
@@ -17,6 +21,7 @@
     "@types/node": "^20.3.1",
     "compressing": "^1.9.0",
     "nodemon": "^2.0.22",
+    "standard-version": "^9.5.0",
     "typescript": "^5.1.3"
   }
 }
