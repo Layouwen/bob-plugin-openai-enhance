@@ -13,6 +13,7 @@ jobs:
         with:
           node-version: 16
 
+      - run: npm i
       - run: npm run build
 
       - uses: fnkr/github-action-ghr@v1.3
