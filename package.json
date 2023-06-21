@@ -1,6 +1,6 @@
 {
   "name": "bob-plugin-openai-enhance",
-  "version": "0.0.3-alpha.0",
+  "version": "0.0.3-alpha.1",
   "description": "Enhance your everyday use OpenAI's powerful capabilities.",
   "scripts": {
     "dev": "nodemon --watch src --exec 'npm run build'",
