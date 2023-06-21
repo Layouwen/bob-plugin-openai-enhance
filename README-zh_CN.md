@@ -1,5 +1,7 @@
 # Bob Plugin OpenAI Enhance
 
+[English](./README.md) | 简体中文
+
 ## 介绍
 
 利用 OpenAI 强大的功能, 增强你的日常使用的 Bob 插件.

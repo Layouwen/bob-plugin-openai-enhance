@@ -1,5 +1,7 @@
 # Bob Plugin OpenAI Enhance
 
+English | [简体中文](./README-zh_CN.md)
+
 ## Introduction
 
 Enhance your everyday use with the Bob plugin, leveraging the powerful capabilities of OpenAI.
