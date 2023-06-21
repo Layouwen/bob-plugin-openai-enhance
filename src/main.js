@@ -143,9 +143,6 @@ function translate(query, completion) {
     return
   }
 
-  $log.info(apiUrl)
-  $log.info(apiKey)
-  $log.info(model)
   const data = {
     max_tokens: 1000,
     temperature: 0.2,
