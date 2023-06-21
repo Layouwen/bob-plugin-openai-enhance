@@ -1,0 +1,92 @@
+{
+  "identifier": "avan.openai.enhance",
+  "version": "0.0.1",
+  "category": "translate",
+  "name": "OpenAI Enhance",
+  "summary": "Enhance your everyday use OpenAI's powerful capabilities.",
+  "icon": "",
+  "author": "Avan <layouwen@gmail.com>",
+  "homepage": "https://github.com/layouwen/bob-plugin-openai-enhance",
+  "appcast": "https://raw.githubusercontent.com/layouwen/bob-plugin-openai-enhace/master/appcast.json",
+  "minBobVersion": "0.5.0",
+  "options": [
+    {
+      "identifier": "apiUrl",
+      "type": "text",
+      "title": "API URL",
+      "defaultValue": "https://api.openai.com",
+      "desc": "可选项。如果您的网络环境需要代理才能访问 OpenAI API, 可在这里修改为反代 API 的地址",
+      "textConfig": {
+        "type": "visible",
+        "placeholderText": "https://api.openai.com"
+      }
+    },
+    {
+      "identifier": "apiKey",
+      "type": "text",
+      "title": "API KEY",
+      "desc": "必填项",
+      "textConfig": {
+        "type": "secure",
+        "height": "40",
+        "placeholderText": "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+      }
+    },
+    {
+      "identifier": "model",
+      "type": "menu",
+      "title": "模型",
+      "defaultValue": "gpt-3.5-turbo-0613",
+      "menuValues": [
+        {
+          "title": "gpt-3.5-turbo-0613 (recommended)",
+          "value": "gpt-3.5-turbo-0613"
+        },
+        {
+          "title": "gpt-3.5-turbo-0301",
+          "value": "gpt-3.5-turbo-0301"
+        },
+        {
+          "title": "gpt-3.5-turbo-16k",
+          "value": "gpt-3.5-turbo-16k"
+        },
+        {
+          "title": "gpt-3.5-turbo",
+          "value": "gpt-3.5-turbo"
+        },
+        {
+          "title": "gpt-4",
+          "value": "gpt-4"
+        },
+        {
+          "title": "gpt-4-0314",
+          "value": "gpt-4-0314"
+        },
+        {
+          "title": "gpt-4-0613",
+          "value": "gpt-4-0613"
+        },
+        {
+          "title": "gpt-4-32k",
+          "value": "gpt-4-32k"
+        },
+        {
+          "title": "gpt-4-32k-0314",
+          "value": "gpt-4-32k-0314"
+        },
+        {
+          "title": "gpt-4-32k-0613",
+          "value": "gpt-4-32k-0613"
+        },
+        {
+          "title": "text-davinci-003",
+          "value": "text-davinci-003"
+        },
+        {
+          "title": "text-davinci-002",
+          "value": "text-davinci-002"
+        }
+      ]
+    }
+  ]
+}
