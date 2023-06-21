@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "nodemon --watch src --exec 'npm run build'",
     "build": "node scripts/build.js",
+    "update:version": "node scripts/updateVersion.js",
     "release": "standard-version",
     "prerelease": "standard-version --prerelease",
     "alpha": "standard-version --prerelease alpha",
