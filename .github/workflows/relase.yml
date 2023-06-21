@@ -14,7 +14,18 @@ jobs:
           node-version: 16
 
       - run: npm i
+      - run: npm run update:version
       - run: npm run build
+      - run: |
+          git config --local user.email "layouwen@gmail.com"
+          git config --local user.name "Avan"
+          git checkout master
+          git pull origin master
+          git add .
+          git commit -m "chore: update version"
+          git push origin master
+        env:
+          GIT_HTTPS_AUTH: ${{ secrets.TOKEN }}
 
       - uses: fnkr/github-action-ghr@v1.3
         if: startsWith(github.ref, 'refs/tags/')
