@@ -8,7 +8,7 @@ Enhance your everyday use with the Bob plugin, leveraging the powerful capabilit
 
 ## Download
 
-[Latest Version](https://github.com/Layouwen/bob-plugin-openai-enhance/releases/download/v0.0.3-alpha.3/openai-enhance-0.0.3-alpha.3.bobplugin)
+[Latest Version](https://github.com/Layouwen/bob-plugin-openai-enhance/releases/download/v0.0.3-alpha.6/openai-enhance-0.0.3-alpha.6.bobplugin)
 
 ## Installation
 

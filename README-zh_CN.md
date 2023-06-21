@@ -8,7 +8,7 @@
 
 ## 下载
 
-[最新版本](https://github.com/Layouwen/bob-plugin-openai-enhance/releases/download/v0.0.3-alpha.3/openai-enhance-0.0.3-alpha.3.bobplugin)
+[最新版本](https://github.com/Layouwen/bob-plugin-openai-enhance/releases/download/v0.0.3-alpha.6/openai-enhance-0.0.3-alpha.6.bobplugin)
 
 ## 安装
 
