@@ -30,5 +30,3 @@ OpenAI Translation Enhancement Bob Plugin.
 | API URL       | OpenAI API URL, leave blank for default official API or enter proxy URL |
 | API Key       | OpenAI API Key, obtain from [OpenAI](https://beta.openai.com/) website  |
 | Model         | Select the desired model                                                |
-
-The above is the README document on GitHub. Please translate it while preserving the format into English.
