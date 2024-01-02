@@ -26,7 +26,8 @@ OpenAI Translation Enhancement Bob Plugin.
 ![Usage](./assets/img01.png)
 
 | Configuration | Description                                                             |
-| ------------- | ----------------------------------------------------------------------- |
+|---------------|-------------------------------------------------------------------------|
 | API URL       | OpenAI API URL, leave blank for default official API or enter proxy URL |
 | API Key       | OpenAI API Key, obtain from [OpenAI](https://beta.openai.com/) website  |
 | Model         | Select the desired model                                                |
+| Custom model  | If a custom model is specified, it will be used as a priority           |
