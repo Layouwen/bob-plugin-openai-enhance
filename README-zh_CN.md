@@ -8,7 +8,7 @@ OpenAI 翻译增强 Bob 插件
 
 ## 下载
 
-[最新版本](https://github.com/Layouwen/bob-plugin-openai-enhance/releases/download/v0.0.3-alpha.6/openai-enhance-0.0.3-alpha.6.bobplugin)
+[最新版本](https://github.com/Layouwen/bob-plugin-openai-enhance/releases/download/v0.0.3-alpha.7/openai-enhance-0.0.3-alpha.7.bobplugin)
 
 ## 安装
 
