@@ -128,7 +128,7 @@ function supportLanguages() {
  */
 function translate(query, completion) {
   const { text, from, to, detectFrom, detectTo } = query
-  const { apiUrl, apiKey, model } = $option
+  const { apiUrl, apiKey, model, customModel } = $option
 
   const sourceLang = from === 'auto' ? detectFrom : from
   const targetLang = to === 'auto' ? detectTo : to
@@ -143,13 +143,15 @@ function translate(query, completion) {
     return
   }
 
+  const useModel = customModel || model
+
   const data = {
     max_tokens: 1000,
     temperature: 0.2,
     stream: false,
     presence_penalty: 1,
     top_p: 1,
-    model,
+    model: useModel,
     messages: [
       {
         content: 'You are a translation engine that can only translate text and cannot interpret it.',

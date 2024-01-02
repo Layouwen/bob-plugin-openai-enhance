@@ -36,22 +36,10 @@
       "identifier": "model",
       "type": "menu",
       "title": "模型",
-      "defaultValue": "gpt-3.5-turbo-0613",
+      "defaultValue": "gpt-3.5-turbo",
       "menuValues": [
         {
-          "title": "gpt-3.5-turbo-0613 (recommended)",
-          "value": "gpt-3.5-turbo-0613"
-        },
-        {
-          "title": "gpt-3.5-turbo-0301",
-          "value": "gpt-3.5-turbo-0301"
-        },
-        {
-          "title": "gpt-3.5-turbo-16k",
-          "value": "gpt-3.5-turbo-16k"
-        },
-        {
-          "title": "gpt-3.5-turbo",
+          "title": "gpt-3.5-turbo (recommended)",
           "value": "gpt-3.5-turbo"
         },
         {
@@ -59,34 +47,21 @@
           "value": "gpt-4"
         },
         {
-          "title": "gpt-4-0314",
-          "value": "gpt-4-0314"
-        },
-        {
-          "title": "gpt-4-0613",
-          "value": "gpt-4-0613"
-        },
-        {
           "title": "gpt-4-32k",
           "value": "gpt-4-32k"
-        },
-        {
-          "title": "gpt-4-32k-0314",
-          "value": "gpt-4-32k-0314"
-        },
-        {
-          "title": "gpt-4-32k-0613",
-          "value": "gpt-4-32k-0613"
-        },
-        {
-          "title": "text-davinci-003",
-          "value": "text-davinci-003"
-        },
-        {
-          "title": "text-davinci-002",
-          "value": "text-davinci-002"
         }
       ]
+    },
+    {
+      "identifier": "customModel",
+      "type": "text",
+      "title": "自定义模型",
+      "desc": "如果填写了则优先使用自定义模型",
+      "defaultValue": "",
+      "textConfig": {
+        "type": "visible",
+        "placeholderText": "例如: gpt-3.5-turbo"
+      }
     }
   ]
 }

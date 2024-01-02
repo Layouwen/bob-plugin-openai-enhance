@@ -2,6 +2,7 @@ interface Option {
   apiUrl: string
   apiKey?: string
   model: string
+  customModel?: string;
 }
 declare var $option: Option
 
