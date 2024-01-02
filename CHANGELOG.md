@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.3-alpha.7](https://github.com/Layouwen/bob-plugin-openai-enhance/compare/v0.0.3-alpha.6...v0.0.3-alpha.7) (2024-01-02)
+
+
+### Features
+
+* add customModel ([1e721d6](https://github.com/Layouwen/bob-plugin-openai-enhance/commit/1e721d6a22345c858f8e624dd81b6c4c6aa9756c))
+
 ### [0.0.3-alpha.6](https://github.com/Layouwen/bob-plugin-openai-enhance/compare/v0.0.3-alpha.5...v0.0.3-alpha.6) (2023-06-21)
 
 ### [0.0.3-alpha.5](https://github.com/Layouwen/bob-plugin-openai-enhance/compare/v0.0.3-alpha.4...v0.0.3-alpha.5) (2023-06-21)
